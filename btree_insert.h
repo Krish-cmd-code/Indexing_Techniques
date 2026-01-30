@@ -4,7 +4,7 @@
 #include<string.h>
 #include"N.h"
 
-#define t 10 //t is degree of btree.
+#define t 5 //t is degree of btree.
 
 typedef struct Element_info{
 	KEY_TYPE key;

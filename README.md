@@ -1,6 +1,6 @@
-#Indexing Techniques for Database System.
+# Indexing Techniques for Database System.
 
-***This Project  tries to study various Indexing techniques used in database systems.
+*** This Project  tries to study various Indexing techniques used in database systems.
 by Implementing B-Tree and BST datastructure we are trying to compare
 Time taken by both datastructure for some specific number of records***
 
@@ -9,15 +9,15 @@ Time taken by both datastructure for some specific number of records***
 
 *commands for making executable*
 
-- ```make bst```
-- ```make btree```
+- ``` make bst ```
+- ``` make btree ```
 
 
-####Run executables
-1. ```./bst```
-2. ```./btree```
+#### Run executables
+1. ``` ./bst ```
+2. ``` ./btree ```
 
-###Working:
+### Working:
 - We are trying to create indexing on records of 'sample.txt' file where we are assuming 'name' field(first) as key of Node of B-Tree and BST.
 - both executable tries to extract records from the 'sample.txt' file which contains 1000000 records. 
 - you can change no.of insertion of records by changing the value 'N' from file 'N.h' which should 1<=N<=1000000.

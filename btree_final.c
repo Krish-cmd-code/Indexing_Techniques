@@ -53,6 +53,8 @@ int main()
 		free(entry->key);
 		free(entry);
 		count++;
+		if(count==N)
+		break;
 	}
 	end = clock();
 
